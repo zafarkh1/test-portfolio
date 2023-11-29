@@ -18,6 +18,7 @@ body {
   height: 100vh;
   background-image: url(./images/background.png);
   background-size: cover;
+	position: relative;
 }
 
 .container .logo {
@@ -25,11 +26,11 @@ body {
 }
 
 .container .testLogo {
-	font-size: 48px;
+  font-size: 48px;
 }
 
 .container .testLogo span {
-	color: #ff004f;
+  color: #ff004f;
 }
 
 .container {
@@ -210,6 +211,7 @@ body {
 /*                                    portfolio                      */
 #portfolio {
   padding: 50px 0;
+	transition: all 0.9s;
 }
 
 .work-list {
@@ -217,6 +219,10 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
+}
+
+.work-list.hidden {
+	display: none;
 }
 
 .work {
@@ -287,6 +293,9 @@ body {
   color: #fff;
   border-radius: 5px;
   transition: all 0.5s;
+	cursor: pointer;
+	background-color: inherit;
+	font-size: 16px;
 }
 
 .btn:hover {
@@ -371,9 +380,9 @@ form .btn2 {
 }
 
 #msg {
-	color: #61b752;
-	margin-top: -40px;
-	display: block;
+  color: #61b752;
+  margin-top: -40px;
+  display: block;
 }
 
 /*                                 responsive                            */

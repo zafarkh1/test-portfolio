@@ -21,3 +21,12 @@ function closeMenu() {
 function openMenu() {
   sideMenu.style.right = "0";
 }
+
+let portfolioMore = document.querySelectorAll(".portfolioMore");
+let btnMore = document.getElementById("btnMore");
+
+for (let portMore of portfolioMore) {
+  btnMore.addEventListener("click", () => {
+    portMore.classList.toggle("hidden");
+  });
+}
