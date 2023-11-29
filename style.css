@@ -16,7 +16,7 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(./images/background.png);
+  background-image: url(./images/Zafar2.png);
   background-size: cover;
 	position: relative;
 }
@@ -393,7 +393,7 @@ nav .fa-solid {
 @media (max-width: 600px) {
   /*                           header                    */
   #header {
-    background-image: url(./images/phone-background.png);
+    background-image: url(./images/Zafar_phone.png);
   }
 
   .header-text {
