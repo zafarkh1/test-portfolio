@@ -11,6 +11,11 @@ body {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /*                                header                            */
 
 #header {
@@ -18,7 +23,7 @@ body {
   height: 100vh;
   background-image: url(./images/Zafar2.png);
   background-size: cover;
-	position: relative;
+  position: relative;
 }
 
 .container .logo {
@@ -38,17 +43,11 @@ body {
 }
 
 .container nav {
-	padding-top: 10px;
+  padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-	position: fixed;
-	top: 0;
-	left: 10%;
-	right: 10%;
-	z-index: 9999;
-	background-color: #080808;
 }
 
 .navbar-list li {
@@ -218,7 +217,7 @@ body {
 /*                                    portfolio                      */
 #portfolio {
   padding: 50px 0;
-	transition: all 0.9s;
+  transition: all 0.9s;
 }
 
 .work-list {
@@ -229,7 +228,7 @@ body {
 }
 
 .work-list.hidden {
-	display: none;
+  display: none;
 }
 
 .work {
@@ -300,9 +299,9 @@ body {
   color: #fff;
   border-radius: 5px;
   transition: all 0.5s;
-	cursor: pointer;
-	background-color: inherit;
-	font-size: 16px;
+  cursor: pointer;
+  background-color: inherit;
+  font-size: 16px;
 }
 
 .btn:hover {
@@ -401,7 +400,7 @@ nav .fa-solid {
   /*                           header                    */
   #header {
     background-image: url(./images/ывафыва.png);
-		background-position: top right;
+    background-position: top right;
   }
 
   .header-text {
