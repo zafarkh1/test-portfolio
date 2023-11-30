@@ -21,7 +21,7 @@ a {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(./images/Zafar2.png);
+  background-image: url(./images/me.png);
   background-size: cover;
   position: relative;
 }
@@ -399,7 +399,7 @@ nav .fa-solid {
 @media (max-width: 600px) {
   /*                           header                    */
   #header {
-    background-image: url(./images/ывафыва.png);
+    background-image: url(./images/me_mobile.png);
     background-position: top right;
   }
 
