@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+	<title>Portfolio</title>
+</head>
+
+<body>
+	<!--                                  header                            -->
+	<div id="header">
+		<div class="container">
+			<nav>
+				<h1 class="testLogo"><span>Z</span>afar</h1>
+				<ul class="navbar-list" id="sideMenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fa-solid fa-times" onclick="closeMenu()"></i>
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openMenu()"></i>
+			</nav>
+			<div class="header-text">
+				<p>Frontend Developer</p>
+				<h1>Hi, I'm <span>Zafar</span><br>from Uzbekistan</h1>
+			</div>
+		</div>
+	</div>
+	<!--                                  about                              -->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="./images/user.jpg" alt="">
+				</div>
+				<div class="about-col-2">
+					<h1 class="about-header">About me</h1>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque quaerat labore, nisi cupiditate assumenda
+						dignissimos inventore, laboriosam quos vitae molestiae dolorum, ut voluptatem distinctio illum.</p>
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+						<p class="tab-links" onclick="openTab('experience')">Experience</p>
+						<p class="tab-links" onclick="openTab('education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>Web Developer</span><br>HTML5, CSS, SCSS, Tailwind, Bootstrap, Javascript, ReactJs, GitHub, Netlify</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>2023</span><br>Internship of project management at EduOn</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>2020-2024</span><br>Information technology at TSUE</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--                                  services                           -->
+	<div id="services">
+		<div class="container">
+			<h1 class="services-header">Services</h1>
+			<div class="services-list">
+				<div>
+					<i class="fa-solid fa-code"></i>
+					<h2>Web Development</h2>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat maxime voluptatem facere repellat minima
+						nostrum cum in veniam numquam reiciendis!</p>
+					<a href="#">Learn more</a>
+				</div>
+				<div>
+					<i class="fa-solid fa-crop"></i>
+					<h2>UI/UX Design</h2>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat maxime voluptatem facere repellat minima
+						nostrum
+						cum in veniam numquam reiciendis!</p>
+					<a href="#">Learn more</a>
+				</div>
+				<div>
+					<i class="fa-brands fa-app-store"></i>
+					<h2>App Development</h2>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat maxime voluptatem facere repellat minima
+						nostrum
+						cum in veniam numquam reiciendis!</p>
+					<a href="#">Learn more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--                                  portfolio                          -->
+	<div id="portfolio">
+		<div class="container">
+			<h1 class="portfolio-title">My works</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="./images/twitter.jpg" alt="">
+					<div class="layer">
+						<h3>Twitter Clone</h3>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, similique dolore quis atque ea voluptas
+							inventore veniam blanditiis?</p>
+						<a href="https://twitter-clone-demo-site.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="./images/monito.jpg" alt="">
+					<div class="layer">
+						<h3>Monito (Figma)</h3>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, similique dolore quis atque ea voluptas
+							inventore veniam blanditiis?</p>
+						<a href="https://exam-2-zafar.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="./images/card.png" alt="">
+					<div class="layer">
+						<h3>Expand Cards</h3>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, similique dolore quis atque ea voluptas
+							inventore veniam blanditiis?</p>
+						<a href="https://expand-cards-js.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="work-list portfolioMore hidden">
+				<div class="work">
+					<img src="./images/movie.jpg" alt="">
+					<div class="layer">
+						<h3>Search Movies</h3>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, similique dolore quis atque ea voluptas
+							inventore veniam blanditiis?</p>
+						<a href="https://search-movies-db.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="./images/scoot.jpg" alt="Monito">
+					<div class="layer">
+						<h3>Scoot (Figma)</h3>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, similique dolore quis atque ea voluptas
+							inventore veniam blanditiis?</p>
+						<a href="https://exam-2-motobike-zafar.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="./images/text_generator.jpg" alt="">
+					<div class="layer">
+						<h3>Lorem ipsum Generator</h3>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, similique dolore quis atque ea voluptas
+							inventore veniam blanditiis?</p>
+						<a href="https://text-generator-lorem-ipsum.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="work-list portfolioMore hidden">
+				<div class="work">
+					<img src="./images/random_colors.jpg" alt="">
+					<div class="layer">
+						<h3>Copy Random Colors</h3>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, similique dolore quis atque ea voluptas
+							inventore veniam blanditiis?</p>
+						<a href="https://random-allcolors.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="./images/clock.jpg" alt="">
+					<div class="layer">
+						<h3>Clock Uzb Time Zone</h3>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, similique dolore quis atque ea voluptas
+							inventore veniam blanditiis?</p>
+						<a href="https://clock-timeuzb.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="./images/insula.jpg" alt="">
+					<div class="layer">
+						<h3>Insula Media</h3>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, similique dolore quis atque ea voluptas
+							inventore veniam blanditiis?</p>
+						<a href="https://exam-wireframes.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+			</div>
+			<button class="btn" id="btnMore">See more</button>
+		</div>
+	</div>
+	<!--                                  contact                           -->
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1>Contact me</h1>
+					<p><i class="fa-solid fa-envelope"></i> hatamovzafar7070@gmail.com</p>
+					<p><i class="fa-solid fa-phone"></i> +998905153279</p>
+					<div class="social-icons">
+						<a href="https://t.me/zafa1_kh" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+						<a href="https://www.instagram.com/_zafa7_kh/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+						<a href="https://www.linkedin.com/in/zafar-khatamov" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+					</div>
+					<a href="./images/my_cv.pdf" download class="btn btn2">Download CV</a>
+				</div>
+				<div class="contact-right">
+					<form name="submit-to-google-sheet">
+						<input type="text" placeholder="Your name" name="Name" required>
+						<input type="text" placeholder="Your email" name="Email" required>
+						<textarea placeholder="Your message" name="Message" rows="6" required></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+					<span id="msg"></span>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Copyright &#169; Zafar</p>
+		</div>
+	</div>
+	<script src="./script.js"></script>
+	<script>
+		let msg = document.getElementById('msg')
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbyM1mz0IlAX6k0a6fogijyPZlG9uHeNW3svcQwRi91O3uP1NGxroqeeYKzomgqyLCG1mw/exec'
+		const form = document.forms['submit-to-google-sheet']
+		form.addEventListener('submit', e => {
+			e.preventDefault()
+			fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+				.then(response => {
+					msg.innerHTML = 'Message sent successfully '
+					setTimeout(() => {
+						msg.innerHTML = ''
+					}, 5000);
+					form.reset()
+				})
+				.catch(error => console.error('Error!', error.message))
+		})
+	</script>
+</body>
+
+</html>
